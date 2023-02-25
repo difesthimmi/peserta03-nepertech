@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800;900&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+#about-us {
+  padding-top: 8rem;
+
+  margin-bottom: 2rem;
+}
+
+.bg-yellow {
+  width: 48%;
+  height: 180px;
+  background-color: #ffd396;
+}
+
+.bg-purple {
+  width: 48%;
+  height: 180px;
+  background: #9747ff;
+}
+
+.bg-black {
+  height: 140px;
+  background-color: #030e0f;
+}
+
+.about-school {
+  margin-top: 6rem;
+}
+
+.line {
+  width: 180px;
+  height: 7px;
+  background: #000;
+}
+
+.us {
+  padding-top: 10rem;
+  background: url(../img/bg-about.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+}
+
+.danis {
+  margin-top: -200px;
+  padding-bottom: 70px;
+}
+
+.team-img {
+  top: -169px;
+}
+
+.btn-black {
+  border: 1px solid #000;
+  border-radius: 0;
+  transition: all 0.5s ease;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-black:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  width: 70%;
+}
+
+@media screen and (max-width: 576px) {
+  .us {
+    padding-top: 5rem;
+    background-position: center;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  .danis {
+    margin-top: 9rem;
+  }
+
+  .frontend {
+    top: 0;
+  }
+
+  .about-title {
+    font-size: 80px;
+  }
+
+  .figo-div,
+  .danis-div {
+    width: 75%;
+  }
+
+  .figo-photo,
+  .danis-photo {
+    width: 80%;
+  }
+
+  .bg-yellow,
+  .bg-purple {
+    width: 46%;
+  }
+
+  .team-img {
+    top: -455px;
+    left: 35%;
+  }
+
+  .horizontal-line {
+    display: none;
+  }
+}
